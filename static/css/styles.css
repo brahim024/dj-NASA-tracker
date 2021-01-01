@@ -1,0 +1,5 @@
+body.jasxrefreshcombotst #resultsBody #pageContent #resultsCol .result {
+    padding: 1.25rem !important;
+    border-top: 0.0625rem solid #d4d2d0;
+    border-width: 0.0625rem;
+}
