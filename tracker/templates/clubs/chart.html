@@ -13,7 +13,7 @@ $(document).ready(function(){
         data: {
             labels: [{% for item in qs %}'{{item.name}}',{% endfor %}],
             datasets: [{
-                label: '',
+                label: 'Money',
                 data: [{% for item in qs %}
                     {{item.money}},
                 {% endfor %}],
@@ -51,5 +51,5 @@ $(document).ready(function(){
 {% endblock scripts %}
 
 {% block content %}
-    <canvas id="myChart" width="400" height="120"></canvas>
+    <canvas id="myChart" width="200" height="60"></canvas>
 {% endblock content %}
